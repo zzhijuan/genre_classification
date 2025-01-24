@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/54f6bfb269ff416e84da3ba1b5a41640/artifacts
+end_time: 1737152761187
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 54f6bfb269ff416e84da3ba1b5a41640
+run_name: clumsy-bear-413
+run_uuid: 54f6bfb269ff416e84da3ba1b5a41640
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737152747279
+status: 4
+tags: []
+user_id: zhijuanzhang

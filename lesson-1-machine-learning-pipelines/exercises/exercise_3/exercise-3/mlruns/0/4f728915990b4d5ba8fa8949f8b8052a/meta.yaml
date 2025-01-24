@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-1-machine-learning-pipelines/exercises/exercise_3/exercise-3/mlruns/0/4f728915990b4d5ba8fa8949f8b8052a/artifacts
+end_time: 1736979729650
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4f728915990b4d5ba8fa8949f8b8052a
+run_name: capable-ram-344
+run_uuid: 4f728915990b4d5ba8fa8949f8b8052a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736979718637
+status: 4
+tags: []
+user_id: zhijuanzhang

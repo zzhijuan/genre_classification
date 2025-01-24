@@ -1,0 +1,13 @@
+2025-01-12 17:30:52,039 Getting artifact
+Traceback (most recent call last):
+  File "use_artifact.py", line 43, in <module>
+    go(args)
+  File "use_artifact.py", line 21, in go
+    artifact = run.use_artifacts(args.artifact_name)
+AttributeError: 'Run' object has no attribute 'use_artifacts'
+Traceback (most recent call last):
+  File "use_artifact.py", line 43, in <module>
+    go(args)
+  File "use_artifact.py", line 21, in go
+    artifact = run.use_artifacts(args.artifact_name)
+AttributeError: 'Run' object has no attribute 'use_artifacts'

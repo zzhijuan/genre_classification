@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/7e0cf2a4c13f48f691247d7db339d7bb/artifacts
+end_time: 1737132375104
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e0cf2a4c13f48f691247d7db339d7bb
+run_name: learned-hen-538
+run_uuid: 7e0cf2a4c13f48f691247d7db339d7bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737132362533
+status: 4
+tags: []
+user_id: zhijuanzhang

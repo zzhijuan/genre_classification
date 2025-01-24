@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/5d87acd01c0a4d69a88d2f0dc715e7d1/artifacts
+end_time: 1737664062023
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d87acd01c0a4d69a88d2f0dc715e7d1
+run_name: tasteful-midge-532
+run_uuid: 5d87acd01c0a4d69a88d2f0dc715e7d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737664059128
+status: 4
+tags: []
+user_id: zhijuanzhang

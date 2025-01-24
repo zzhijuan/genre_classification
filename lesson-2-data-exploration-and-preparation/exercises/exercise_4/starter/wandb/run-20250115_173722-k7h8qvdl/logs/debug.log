@@ -1,0 +1,58 @@
+2025-01-15 17:37:22,977 INFO    MainThread:257 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2025-01-15 17:37:22,977 INFO    MainThread:257 [wandb_setup.py:_flush():76] Configure stats pid to 257
+2025-01-15 17:37:22,977 INFO    MainThread:257 [wandb_setup.py:_flush():76] Loading settings from /Users/zhijuanzhang/.config/wandb/settings
+2025-01-15 17:37:22,977 INFO    MainThread:257 [wandb_setup.py:_flush():76] Loading settings from /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/settings
+2025-01-15 17:37:22,977 INFO    MainThread:257 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-01-15 17:37:22,977 INFO    MainThread:257 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-01-15 17:37:22,977 INFO    MainThread:257 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-01-15 17:37:22,977 INFO    MainThread:257 [wandb_init.py:_log_setup():526] Logging user logs to /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250115_173722-k7h8qvdl/logs/debug.log
+2025-01-15 17:37:22,978 INFO    MainThread:257 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250115_173722-k7h8qvdl/logs/debug-internal.log
+2025-01-15 17:37:22,978 INFO    MainThread:257 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1361eb6a0>
+2025-01-15 17:37:22,978 INFO    MainThread:257 [wandb_init.py:init():566] calling init triggers
+2025-01-15 17:37:22,978 INFO    MainThread:257 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2025-01-15 17:37:22,979 INFO    MainThread:257 [wandb_init.py:init():616] starting backend
+2025-01-15 17:37:22,979 INFO    MainThread:257 [wandb_init.py:init():620] setting up manager
+2025-01-15 17:37:22,986 INFO    MainThread:257 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-01-15 17:37:22,990 INFO    MainThread:257 [wandb_init.py:init():628] backend started and connected
+2025-01-15 17:37:23,013 INFO    MainThread:257 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2025-01-15 17:37:23,014 INFO    MainThread:257 [wandb_init.py:init():720] updated telemetry
+2025-01-15 17:37:23,039 INFO    MainThread:257 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2025-01-15 17:37:23,515 INFO    MainThread:257 [wandb_run.py:_on_init():2262] communicating current version
+2025-01-15 17:37:23,579 INFO    MainThread:257 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.19.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-01-15 17:37:23,579 INFO    MainThread:257 [wandb_init.py:init():804] starting run threads in backend
+2025-01-15 17:37:30,004 INFO    MainThread:257 [wandb_run.py:_console_start():2241] atexit reg
+2025-01-15 17:37:30,004 INFO    MainThread:257 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2025-01-15 17:37:30,006 INFO    MainThread:257 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2025-01-15 17:37:30,007 INFO    MainThread:257 [wandb_run.py:_redirect():2186] Redirects installed.
+2025-01-15 17:37:30,008 INFO    MainThread:257 [wandb_init.py:init():847] run started, returning control to user process
+2025-01-15 17:37:30,009 INFO    MainThread:257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2025-01-15 17:37:30,009 INFO    MainThread:257 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 17:37:44,078 INFO    MainThread:257 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 17:37:44,425 INFO    MainThread:257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2025-01-15 17:37:44,425 INFO    MainThread:257 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 17:38:22,913 INFO    MainThread:257 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 17:38:22,998 INFO    MainThread:257 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2025-01-15 17:38:22,998 INFO    MainThread:257 [wandb_setup.py:_flush():76] Configure stats pid to 257
+2025-01-15 17:38:22,998 INFO    MainThread:257 [wandb_setup.py:_flush():76] Loading settings from /Users/zhijuanzhang/.config/wandb/settings
+2025-01-15 17:38:22,998 INFO    MainThread:257 [wandb_setup.py:_flush():76] Loading settings from /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/settings
+2025-01-15 17:38:22,999 INFO    MainThread:257 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-01-15 17:38:22,999 INFO    MainThread:257 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-01-15 17:38:22,999 INFO    MainThread:257 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-01-15 17:38:22,999 INFO    MainThread:257 [wandb_init.py:_log_setup():526] Logging user logs to /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250115_173822-u3ija613/logs/debug.log
+2025-01-15 17:38:23,000 INFO    MainThread:257 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250115_173822-u3ija613/logs/debug-internal.log
+2025-01-15 17:38:23,000 INFO    MainThread:257 [wandb_init.py:init():566] calling init triggers
+2025-01-15 17:38:23,000 INFO    MainThread:257 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2025-01-15 17:38:23,000 INFO    MainThread:257 [wandb_init.py:init():591] re-initializing run, found existing run on stack: k7h8qvdl
+2025-01-15 17:38:23,003 INFO    MainThread:257 [wandb_run.py:_finish():1970] finishing run zzhijuan-university-of-houston/exercise_4/k7h8qvdl
+2025-01-15 17:38:23,003 INFO    MainThread:257 [jupyter.py:save_history():445] not saving jupyter history
+2025-01-15 17:38:23,004 INFO    MainThread:257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2025-01-15 17:38:23,004 INFO    MainThread:257 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2025-01-15 17:38:23,004 INFO    MainThread:257 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2025-01-15 17:38:23,005 INFO    MainThread:257 [wandb_run.py:_restore():2193] restore
+2025-01-15 17:38:23,006 INFO    MainThread:257 [wandb_run.py:_restore():2199] restore done
+2025-01-15 17:38:25,642 INFO    MainThread:257 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-01-15 17:38:25,642 INFO    MainThread:257 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-01-15 17:38:25,650 INFO    MainThread:257 [wandb_run.py:_footer_sync_info():3810] logging synced files

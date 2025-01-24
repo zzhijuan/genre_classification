@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/solution/mlruns/0/aeee5e25f79c413fa85aeb88a5ea0e64/artifacts
+end_time: 1737131810247
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aeee5e25f79c413fa85aeb88a5ea0e64
+run_name: resilient-mouse-875
+run_uuid: aeee5e25f79c413fa85aeb88a5ea0e64
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737131793563
+status: 4
+tags: []
+user_id: zhijuanzhang

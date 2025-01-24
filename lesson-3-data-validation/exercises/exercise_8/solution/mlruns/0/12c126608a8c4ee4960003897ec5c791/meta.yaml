@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_8/solution/mlruns/0/12c126608a8c4ee4960003897ec5c791/artifacts
+end_time: 1737151136786
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12c126608a8c4ee4960003897ec5c791
+run_name: upbeat-fish-416
+run_uuid: 12c126608a8c4ee4960003897ec5c791
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737151122185
+status: 4
+tags: []
+user_id: zhijuanzhang

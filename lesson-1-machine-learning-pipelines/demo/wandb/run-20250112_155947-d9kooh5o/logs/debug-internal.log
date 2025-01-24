@@ -1,0 +1,17 @@
+{"time":"2025-01-12T15:59:47.139963-06:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-12T15:59:47.140036-06:00","level":"INFO","msg":"created symlink","path":"/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-1-machine-learning-pipelines/demo/wandb/run-20250112_155947-d9kooh5o/logs/debug-core.log"}
+{"time":"2025-01-12T15:59:47.176368-06:00","level":"INFO","msg":"created new stream","id":"d9kooh5o"}
+{"time":"2025-01-12T15:59:47.176507-06:00","level":"INFO","msg":"stream: started","id":"d9kooh5o"}
+{"time":"2025-01-12T15:59:47.176613-06:00","level":"INFO","msg":"handler: started","stream_id":"d9kooh5o"}
+{"time":"2025-01-12T15:59:47.17667-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"d9kooh5o"}
+{"time":"2025-01-12T15:59:47.177012-06:00","level":"INFO","msg":"sender: started","stream_id":"d9kooh5o"}
+{"time":"2025-01-12T15:59:47.340827-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-12T15:59:47.670621-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-12T15:59:47.670693-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-12T15:59:48.155367-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-12T15:59:48.261959-06:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-01-12T15:59:49.287245-06:00","level":"INFO","msg":"stream: closing","id":"d9kooh5o"}
+{"time":"2025-01-12T15:59:49.287284-06:00","level":"INFO","msg":"handler: closed","stream_id":"d9kooh5o"}
+{"time":"2025-01-12T15:59:49.28731-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"d9kooh5o"}
+{"time":"2025-01-12T15:59:49.287334-06:00","level":"INFO","msg":"sender: closed","stream_id":"d9kooh5o"}
+{"time":"2025-01-12T15:59:49.287559-06:00","level":"INFO","msg":"stream: closed","id":"d9kooh5o"}

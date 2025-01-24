@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/c14edf5c98e842f3b5cdde6beef4c216/artifacts
+end_time: 1737129522724
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c14edf5c98e842f3b5cdde6beef4c216
+run_name: masked-goose-492
+run_uuid: c14edf5c98e842f3b5cdde6beef4c216
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737129381795
+status: 4
+tags: []
+user_id: zhijuanzhang

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/f909f59aa4c34839ae6061e382698d63/artifacts
+end_time: 1737664580097
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f909f59aa4c34839ae6061e382698d63
+run_name: able-snake-277
+run_uuid: f909f59aa4c34839ae6061e382698d63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737664287175
+status: 4
+tags: []
+user_id: zhijuanzhang

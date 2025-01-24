@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/ae83005ea5d84b7cad49c166d90d8135/artifacts
+end_time: 1737136598544
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae83005ea5d84b7cad49c166d90d8135
+run_name: rebellious-bat-427
+run_uuid: ae83005ea5d84b7cad49c166d90d8135
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737136582502
+status: 3
+tags: []
+user_id: zhijuanzhang

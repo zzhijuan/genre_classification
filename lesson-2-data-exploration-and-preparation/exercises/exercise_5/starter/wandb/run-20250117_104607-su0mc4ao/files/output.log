@@ -1,0 +1,16 @@
+/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py:22: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+  df['title'].fillna(value='', inplace=True)
+/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py:23: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+  df['song_name'].fillna(value='', inplace=True)
+Traceback (most recent call last):
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py", line 65, in <module>
+    go(args)
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py", line 31, in go
+    artifact_new.add_file('./processed_data.parquet')
+  File "/opt/anaconda3/envs/mlflow-6b1d235a149327e3f9f09905ae9265c8607a47c1/lib/python3.12/site-packages/wandb/sdk/artifacts/artifact.py", line 1151, in add_file
+    raise ValueError("Path is not a file: %s" % local_path)
+ValueError: Path is not a file: ./processed_data.parquet

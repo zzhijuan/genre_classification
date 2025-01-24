@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/solution/mlruns/0/3ee2d9cb77dc4720834c87d357b9ddff/artifacts
+end_time: 1737583502149
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ee2d9cb77dc4720834c87d357b9ddff
+run_name: illustrious-moth-193
+run_uuid: 3ee2d9cb77dc4720834c87d357b9ddff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737583110873
+status: 3
+tags: []
+user_id: zhijuanzhang

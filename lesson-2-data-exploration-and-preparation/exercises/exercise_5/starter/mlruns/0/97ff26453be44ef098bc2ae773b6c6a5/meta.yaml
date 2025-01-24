@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/97ff26453be44ef098bc2ae773b6c6a5/artifacts
+end_time: 1737132124682
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 97ff26453be44ef098bc2ae773b6c6a5
+run_name: placid-pig-755
+run_uuid: 97ff26453be44ef098bc2ae773b6c6a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737132111955
+status: 4
+tags: []
+user_id: zhijuanzhang

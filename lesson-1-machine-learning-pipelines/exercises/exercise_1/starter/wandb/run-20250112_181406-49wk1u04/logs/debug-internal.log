@@ -1,0 +1,17 @@
+{"time":"2025-01-12T18:14:06.839228-06:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-12T18:14:06.839343-06:00","level":"INFO","msg":"created symlink","path":"/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20250112_181406-49wk1u04/logs/debug-core.log"}
+{"time":"2025-01-12T18:14:06.849553-06:00","level":"INFO","msg":"created new stream","id":"49wk1u04"}
+{"time":"2025-01-12T18:14:06.849623-06:00","level":"INFO","msg":"stream: started","id":"49wk1u04"}
+{"time":"2025-01-12T18:14:06.849702-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"49wk1u04"}
+{"time":"2025-01-12T18:14:06.849745-06:00","level":"INFO","msg":"sender: started","stream_id":"49wk1u04"}
+{"time":"2025-01-12T18:14:06.849898-06:00","level":"INFO","msg":"handler: started","stream_id":"49wk1u04"}
+{"time":"2025-01-12T18:14:07.179442-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-12T18:14:08.48953-06:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-01-12T18:14:08.4986-06:00","level":"INFO","msg":"stream: closing","id":"49wk1u04"}
+{"time":"2025-01-12T18:14:08.498665-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-12T18:14:08.498827-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-12T18:14:08.752891-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-12T18:14:08.862544-06:00","level":"INFO","msg":"handler: closed","stream_id":"49wk1u04"}
+{"time":"2025-01-12T18:14:08.862587-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"49wk1u04"}
+{"time":"2025-01-12T18:14:08.862651-06:00","level":"INFO","msg":"sender: closed","stream_id":"49wk1u04"}
+{"time":"2025-01-12T18:14:08.863131-06:00","level":"INFO","msg":"stream: closed","id":"49wk1u04"}

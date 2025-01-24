@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-1-machine-learning-pipelines/exercises/exercise_2/solution/mlruns/0/5cbde732dfb74e3990114093c7cf9d2e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5cbde732dfb74e3990114093c7cf9d2e
+run_name: masked-carp-371
+run_uuid: 5cbde732dfb74e3990114093c7cf9d2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736803747468
+status: 1
+tags: []
+user_id: zhijuanzhang

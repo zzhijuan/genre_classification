@@ -1,0 +1,122 @@
+2025-01-15 19:24:59,546 INFO    MainThread:825 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2025-01-15 19:24:59,546 INFO    MainThread:825 [wandb_setup.py:_flush():76] Configure stats pid to 825
+2025-01-15 19:24:59,547 INFO    MainThread:825 [wandb_setup.py:_flush():76] Loading settings from /Users/zhijuanzhang/.config/wandb/settings
+2025-01-15 19:24:59,547 INFO    MainThread:825 [wandb_setup.py:_flush():76] Loading settings from /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/settings
+2025-01-15 19:24:59,547 INFO    MainThread:825 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-01-15 19:24:59,547 INFO    MainThread:825 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-01-15 19:24:59,547 INFO    MainThread:825 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-01-15 19:24:59,547 INFO    MainThread:825 [wandb_init.py:_log_setup():526] Logging user logs to /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250115_192459-a2hgl4rg/logs/debug.log
+2025-01-15 19:24:59,547 INFO    MainThread:825 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20250115_192459-a2hgl4rg/logs/debug-internal.log
+2025-01-15 19:24:59,547 INFO    MainThread:825 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x10dc02f80>
+2025-01-15 19:24:59,548 INFO    MainThread:825 [wandb_init.py:init():566] calling init triggers
+2025-01-15 19:24:59,548 INFO    MainThread:825 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2025-01-15 19:24:59,548 INFO    MainThread:825 [wandb_init.py:init():616] starting backend
+2025-01-15 19:24:59,548 INFO    MainThread:825 [wandb_init.py:init():620] setting up manager
+2025-01-15 19:24:59,550 INFO    MainThread:825 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-01-15 19:24:59,554 INFO    MainThread:825 [wandb_init.py:init():628] backend started and connected
+2025-01-15 19:24:59,577 INFO    MainThread:825 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2025-01-15 19:24:59,578 INFO    MainThread:825 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-01-15 19:24:59,578 INFO    MainThread:825 [wandb_init.py:init():720] updated telemetry
+2025-01-15 19:24:59,597 INFO    MainThread:825 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2025-01-15 19:24:59,850 INFO    MainThread:825 [wandb_run.py:_on_init():2262] communicating current version
+2025-01-15 19:24:59,942 INFO    MainThread:825 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.19.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-01-15 19:24:59,943 INFO    MainThread:825 [wandb_init.py:init():804] starting run threads in backend
+2025-01-15 19:25:11,173 INFO    MainThread:825 [wandb_run.py:_console_start():2241] atexit reg
+2025-01-15 19:25:11,173 INFO    MainThread:825 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2025-01-15 19:25:11,175 INFO    MainThread:825 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2025-01-15 19:25:11,175 INFO    MainThread:825 [wandb_run.py:_redirect():2186] Redirects installed.
+2025-01-15 19:25:11,176 INFO    MainThread:825 [wandb_init.py:init():847] run started, returning control to user process
+2025-01-15 19:25:11,177 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:25:11,177 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:25:11,189 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:25:11,203 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:25:11,204 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:25:11,211 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:25:11,737 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:25:11,737 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:25:11,756 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:25:11,774 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:25:11,774 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:00,799 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:00,830 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:00,830 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:03,896 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:16,072 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:16,072 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:16,085 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:16,114 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:16,115 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:17,023 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:17,059 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:17,059 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:21,732 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:21,806 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:21,806 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:21,825 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:21,837 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:21,837 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:27,254 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:27,312 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:27,312 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:27,335 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:27,359 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:27,359 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:34,374 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:34,404 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:34,404 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:36,564 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:36,565 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:36,568 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:36,597 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:36,614 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:36,614 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:44,166 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:44,203 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:44,203 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:47,296 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:47,305 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:47,306 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:47,406 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:26:47,421 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:26:47,421 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:26:50,545 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:27:47,459 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:27:47,460 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:27:47,474 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:27:47,496 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:27:47,496 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:27:47,505 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:27:47,527 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:27:47,528 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:27:47,539 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:27:47,558 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:27:47,559 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:27:56,027 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:27:56,061 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:27:56,062 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:28:04,818 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:28:04,898 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:28:04,898 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:28:04,915 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:28:04,935 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:28:04,935 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:28:07,232 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:28:07,268 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:28:07,269 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:28:07,291 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:28:07,310 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:28:07,310 INFO    MainThread:825 [wandb_init.py:_pause_backend():437] pausing backend
+2025-01-15 19:28:11,147 INFO    MainThread:825 [wandb_init.py:_resume_backend():442] resuming backend
+2025-01-15 19:28:11,150 INFO    MainThread:825 [wandb_run.py:_finish():1970] finishing run zzhijuan-university-of-houston/exercise_4/a2hgl4rg
+2025-01-15 19:28:11,269 INFO    MainThread:825 [jupyter.py:save_history():474] saving 14 cells to _session_history.ipynb
+2025-01-15 19:28:11,271 INFO    MainThread:825 [wandb_run.py:_config_callback():1343] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2025-01-15 19:28:11,283 INFO    MainThread:825 [jupyter.py:_save_ipynb():384] looking for notebook: Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/eda.ipynb
+2025-01-15 19:28:11,283 INFO    MainThread:825 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2025-01-15 19:28:11,283 INFO    MainThread:825 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2025-01-15 19:28:11,283 INFO    MainThread:825 [wandb_run.py:_restore():2193] restore
+2025-01-15 19:28:11,283 INFO    MainThread:825 [wandb_run.py:_restore():2199] restore done
+2025-01-15 19:28:15,691 INFO    MainThread:825 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-01-15 19:28:15,691 INFO    MainThread:825 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-01-15 19:28:15,700 INFO    MainThread:825 [wandb_run.py:_footer_sync_info():3810] logging synced files

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/06689b608fbf4e1dad6fa29158bae776/artifacts
+end_time: 1737132432603
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 06689b608fbf4e1dad6fa29158bae776
+run_name: thundering-zebra-661
+run_uuid: 06689b608fbf4e1dad6fa29158bae776
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737132419535
+status: 4
+tags: []
+user_id: zhijuanzhang

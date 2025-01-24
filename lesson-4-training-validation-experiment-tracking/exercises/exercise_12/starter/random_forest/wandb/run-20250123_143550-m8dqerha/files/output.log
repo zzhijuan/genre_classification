@@ -1,0 +1,22 @@
+2025-01-23 14:35:55,279 Downloading and reading test artifact
+2025-01-23 14:35:56,137 Extracting target from dataframe
+2025-01-23 14:35:56,145 Splitting train/val
+2025-01-23 14:35:56,184 Setting up pipeline
+2025-01-23 14:35:56,195 Fitting
+2025-01-23 14:36:14,465 Scoring
+Traceback (most recent call last):
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/run.py", line 255, in <module>
+    go(args)
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/run.py", line 64, in go
+    export_model(run, pipe, X_val, pred, args.export_artifact)
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/random_forest/run.py", line 104, in export_model
+    signature = infer_signature(X_val, val_pred)
+  File "/opt/anaconda3/envs/mlflow-38fee41e65b2fc0385fdd05a4fe9900d5863a4ac/lib/python3.10/site-packages/mlflow/models/signature.py", line 212, in infer_signature
+    inputs = _infer_schema(model_input) if model_input is not None else None
+  File "/opt/anaconda3/envs/mlflow-38fee41e65b2fc0385fdd05a4fe9900d5863a4ac/lib/python3.10/site-packages/mlflow/types/utils.py", line 135, in _infer_schema
+    [ColSpec(type=_infer_pandas_column(data[col]), name=col) for col in data.columns]
+  File "/opt/anaconda3/envs/mlflow-38fee41e65b2fc0385fdd05a4fe9900d5863a4ac/lib/python3.10/site-packages/mlflow/types/utils.py", line 135, in <listcomp>
+    [ColSpec(type=_infer_pandas_column(data[col]), name=col) for col in data.columns]
+  File "/opt/anaconda3/envs/mlflow-38fee41e65b2fc0385fdd05a4fe9900d5863a4ac/lib/python3.10/site-packages/mlflow/types/utils.py", line 293, in _infer_pandas_column
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Unable to map 'object' type to MLflow DataType. object can be mapped iff all values have identical data type which is one of (string, (bytes or byterray),  int, float).

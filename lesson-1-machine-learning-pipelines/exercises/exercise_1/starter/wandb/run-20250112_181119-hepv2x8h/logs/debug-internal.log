@@ -1,0 +1,17 @@
+{"time":"2025-01-12T18:11:19.767106-06:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-12T18:11:19.767195-06:00","level":"INFO","msg":"created symlink","path":"/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20250112_181119-hepv2x8h/logs/debug-core.log"}
+{"time":"2025-01-12T18:11:19.779621-06:00","level":"INFO","msg":"created new stream","id":"hepv2x8h"}
+{"time":"2025-01-12T18:11:19.779697-06:00","level":"INFO","msg":"stream: started","id":"hepv2x8h"}
+{"time":"2025-01-12T18:11:19.779767-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"hepv2x8h"}
+{"time":"2025-01-12T18:11:19.779829-06:00","level":"INFO","msg":"handler: started","stream_id":"hepv2x8h"}
+{"time":"2025-01-12T18:11:19.780088-06:00","level":"INFO","msg":"sender: started","stream_id":"hepv2x8h"}
+{"time":"2025-01-12T18:11:19.964547-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-12T18:11:20.933205-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-12T18:11:20.933312-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-12T18:11:21.934873-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact zen_of_python","runtime_seconds":1.007068276}],"total_operations":1}}
+{"time":"2025-01-12T18:11:22.079085-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-12T18:11:23.206592-06:00","level":"INFO","msg":"stream: closing","id":"hepv2x8h"}
+{"time":"2025-01-12T18:11:23.206671-06:00","level":"INFO","msg":"handler: closed","stream_id":"hepv2x8h"}
+{"time":"2025-01-12T18:11:23.206695-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hepv2x8h"}
+{"time":"2025-01-12T18:11:23.206742-06:00","level":"INFO","msg":"sender: closed","stream_id":"hepv2x8h"}
+{"time":"2025-01-12T18:11:23.206986-06:00","level":"INFO","msg":"stream: closed","id":"hepv2x8h"}

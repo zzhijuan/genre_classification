@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/2cfa04e0ae294cec94f1a5f59d07ac6b/artifacts
+end_time: 1737660674217
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2cfa04e0ae294cec94f1a5f59d07ac6b
+run_name: thoughtful-koi-852
+run_uuid: 2cfa04e0ae294cec94f1a5f59d07ac6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737660672011
+status: 4
+tags: []
+user_id: zhijuanzhang

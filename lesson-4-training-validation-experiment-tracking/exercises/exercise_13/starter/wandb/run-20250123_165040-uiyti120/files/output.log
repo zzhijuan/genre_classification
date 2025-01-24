@@ -1,0 +1,10 @@
+2025-01-23 16:50:45,152 Downloading and reading test artifact
+2025-01-23 16:50:46,057 Extracting target from dataframe
+2025-01-23 16:50:46,063 Downloading and reading the exported model
+[34m[1mwandb[39m[22m:   6 of 6 files downloaded.
+Traceback (most recent call last):
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py", line 99, in <module>
+    go(args)
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py", line 35, in go
+    pipe = mlflow.sklearn.load.model(model_export_path)## YOUR CODE HERE
+AttributeError: module 'mlflow.sklearn' has no attribute 'load'

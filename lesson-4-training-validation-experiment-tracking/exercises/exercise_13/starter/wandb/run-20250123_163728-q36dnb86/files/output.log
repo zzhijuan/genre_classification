@@ -1,0 +1,33 @@
+2025-01-23 16:37:31,901 Downloading and reading test artifact
+2025-01-23 16:37:32,726 Extracting target from dataframe
+2025-01-23 16:37:32,731 Downloading and reading the exported model
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Unable to fetch artifact with name zzhijuan-university-of-houston/exercise_12/model_export:latest
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/lib/python3.10/site-packages/wandb/apis/public/api.py", line 958, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 254, in _from_name
+    raise ValueError(
+ValueError: Unable to fetch artifact with name zzhijuan-university-of-houston/exercise_12/model_export:latest
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py", line 99, in <module>
+    go(args)
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py", line 32, in go
+    model_export_path = run.use_artifact(args.model_export).download()## YOUR CODE HERE
+  File "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2783, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/lib/python3.10/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/lib/python3.10/site-packages/wandb/apis/public/api.py", line 958, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 254, in _from_name
+    raise ValueError(
+wandb.errors.CommError: Unable to fetch artifact with name zzhijuan-university-of-houston/exercise_12/model_export:latest

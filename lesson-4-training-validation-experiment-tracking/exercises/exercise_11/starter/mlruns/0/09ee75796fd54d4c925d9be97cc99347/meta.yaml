@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/09ee75796fd54d4c925d9be97cc99347/artifacts
+end_time: 1737668798046
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 09ee75796fd54d4c925d9be97cc99347
+run_name: welcoming-quail-858
+run_uuid: 09ee75796fd54d4c925d9be97cc99347
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737668674633
+status: 3
+tags: []
+user_id: zhijuanzhang

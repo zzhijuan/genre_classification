@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/37aaac4119bb413ca02f30c93647aa15/artifacts
+end_time: 1737132217469
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 37aaac4119bb413ca02f30c93647aa15
+run_name: bouncy-vole-389
+run_uuid: 37aaac4119bb413ca02f30c93647aa15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737132204360
+status: 4
+tags: []
+user_id: zhijuanzhang

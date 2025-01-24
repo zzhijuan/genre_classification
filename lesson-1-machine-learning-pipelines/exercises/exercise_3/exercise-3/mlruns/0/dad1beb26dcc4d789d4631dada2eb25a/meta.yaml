@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-1-machine-learning-pipelines/exercises/exercise_3/exercise-3/mlruns/0/dad1beb26dcc4d789d4631dada2eb25a/artifacts
+end_time: 1736979145337
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dad1beb26dcc4d789d4631dada2eb25a
+run_name: industrious-worm-106
+run_uuid: dad1beb26dcc4d789d4631dada2eb25a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736979052348
+status: 4
+tags: []
+user_id: zhijuanzhang

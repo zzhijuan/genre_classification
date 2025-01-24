@@ -1,0 +1,35 @@
+{
+  "os":  "macOS-10.16-x86_64-i386-64bit",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2025-01-12T23:30:51.251998Z",
+  "args":  [
+    "--artifact_name",
+    "zen_of_python"
+  ],
+  "program":  "use_artifact.py",
+  "codePath":  "use_artifact.py",
+  "email":  "zzhijuan@yahoo.com",
+  "root":  "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter",
+  "host":  "zhijuans-Air.attlocal.net",
+  "executable":  "/opt/anaconda3/envs/udacity-mlops/bin/python",
+  "codePathLocal":  "use_artifact.py",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "disk":  {
+    "/":  {
+      "total":  "250790436864",
+      "used":  "104934830080"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "250790436864",
+      "used":  "104934830080"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "cpu":  {
+    "count":  2,
+    "countLogical":  4
+  }
+}

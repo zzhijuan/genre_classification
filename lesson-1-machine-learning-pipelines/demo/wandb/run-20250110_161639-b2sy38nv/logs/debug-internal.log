@@ -1,0 +1,38 @@
+{"time":"2025-01-10T16:16:39.517002-06:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T16:16:39.517048-06:00","level":"INFO","msg":"created symlink","path":"/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-1-machine-learning-pipelines/demo/wandb/run-20250110_161639-b2sy38nv/logs/debug-core.log"}
+{"time":"2025-01-10T16:16:39.53771-06:00","level":"INFO","msg":"created new stream","id":"b2sy38nv"}
+{"time":"2025-01-10T16:16:39.53791-06:00","level":"INFO","msg":"stream: started","id":"b2sy38nv"}
+{"time":"2025-01-10T16:16:39.53791-06:00","level":"INFO","msg":"handler: started","stream_id":"b2sy38nv"}
+{"time":"2025-01-10T16:16:39.537932-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"b2sy38nv"}
+{"time":"2025-01-10T16:16:39.538084-06:00","level":"INFO","msg":"sender: started","stream_id":"b2sy38nv"}
+{"time":"2025-01-10T16:16:39.874118-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T16:16:40.698699-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-10T16:16:40.709529-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-10T16:16:40.777997-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-10T16:18:25.930861-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-10T16:18:26.076973-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-10T16:18:26.089497-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-10T16:18:26.141405-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-10T16:18:28.539349-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-10T16:18:28.570209-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-10T16:18:28.6006-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-10T16:18:28.636297-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-10T16:18:30.492421-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-10T16:18:59.786694-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zzhijuan-university-of-houston/demo_artifact_1/b2sy38nv/file_stream\": read tcp 192.168.1.84:51002->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-01-10T16:19:09.754803-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-10T16:19:09.786124-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-10T16:19:09.814624-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-10T16:19:09.829311-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-10T16:19:09.835209-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T16:19:09.835364-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T16:19:10.523009-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-10T16:19:10.845472-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":30.959191761,"error_status":"retrying: Post \"https://api.wandb.ai/files/zzhijuan-university-of-houston/demo_artifact_1/b2sy38nv/file_stream\": read tcp 192.168.1.84:51002->35.186.228.49:443: read: operation timed out"}],"total_operations":1}}
+{"time":"2025-01-10T16:19:20.101206-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zzhijuan-university-of-houston/demo_artifact_1/b2sy38nv/file_stream\": read tcp 192.168.1.84:51008->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-01-10T16:19:43.212372-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zzhijuan-university-of-houston/demo_artifact_1/b2sy38nv/file_stream\": read tcp 192.168.1.84:51012->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-01-10T16:20:11.335423-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":91.447327498,"error_status":"retrying: Post \"https://api.wandb.ai/files/zzhijuan-university-of-houston/demo_artifact_1/b2sy38nv/file_stream\": read tcp 192.168.1.84:51012->35.186.228.49:443: read: operation timed out"}],"total_operations":1}}
+{"time":"2025-01-10T16:20:11.885742-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/zzhijuan-university-of-houston/demo_artifact_1/b2sy38nv/file_stream\": read tcp 192.168.1.84:51017->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-01-10T16:20:32.559552-06:00","level":"INFO","msg":"stream: closing","id":"b2sy38nv"}
+{"time":"2025-01-10T16:20:32.559828-06:00","level":"INFO","msg":"handler: closed","stream_id":"b2sy38nv"}
+{"time":"2025-01-10T16:20:32.559973-06:00","level":"INFO","msg":"sender: closed","stream_id":"b2sy38nv"}
+{"time":"2025-01-10T16:20:32.559909-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b2sy38nv"}
+{"time":"2025-01-10T16:20:32.561091-06:00","level":"INFO","msg":"stream: closed","id":"b2sy38nv"}

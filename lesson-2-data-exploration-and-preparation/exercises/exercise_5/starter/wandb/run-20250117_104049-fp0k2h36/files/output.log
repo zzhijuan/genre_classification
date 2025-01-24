@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py", line 65, in <module>
+    go(args)
+  File "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py", line 20, in go
+    df = pd.read_parquet(artifact_path.file())
+                         ^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'file'

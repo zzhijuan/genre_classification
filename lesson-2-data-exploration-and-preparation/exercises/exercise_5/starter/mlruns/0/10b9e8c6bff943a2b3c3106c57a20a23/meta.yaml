@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/10b9e8c6bff943a2b3c3106c57a20a23/artifacts
+end_time: 1737131980087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10b9e8c6bff943a2b3c3106c57a20a23
+run_name: big-whale-997
+run_uuid: 10b9e8c6bff943a2b3c3106c57a20a23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737131972317
+status: 4
+tags: []
+user_id: zhijuanzhang

@@ -1,0 +1,44 @@
+{
+    "os": "macOS-12.7.4-x86_64-i386-64bit",
+    "python": "3.10.16",
+    "heartbeatAt": "2025-01-23T22:11:50.343758",
+    "startedAt": "2025-01-23T22:11:49.928096",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model_export",
+        "exercise_12/model_export:latest",
+        "--test_data",
+        "exercise_6/data_test.csv:latest"
+    ],
+    "state": "running",
+    "program": "/Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "run.py",
+    "host": "zhijuans-Air.attlocal.net",
+    "username": "zhijuanzhang",
+    "executable": "/opt/anaconda3/envs/mlflow-34b44ee50a2fded840a3200243d41bcc4d33e891/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2200,
+        "min": 2200,
+        "max": 2200
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200,
+            "min": 2200,
+            "max": 2200
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 233.5667953491211,
+            "used": 20.13284683227539
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

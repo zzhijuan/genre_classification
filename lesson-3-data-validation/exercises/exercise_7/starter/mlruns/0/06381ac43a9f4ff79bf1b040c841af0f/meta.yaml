@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_7/starter/mlruns/0/06381ac43a9f4ff79bf1b040c841af0f/artifacts
+end_time: 1737148381639
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 06381ac43a9f4ff79bf1b040c841af0f
+run_name: casual-perch-856
+run_uuid: 06381ac43a9f4ff79bf1b040c841af0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737148354220
+status: 3
+tags: []
+user_id: zhijuanzhang

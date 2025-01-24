@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/9f5bedf5b17a46a7bcd2209a64e68f3d/artifacts
+end_time: 1737152577952
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f5bedf5b17a46a7bcd2209a64e68f3d
+run_name: bemused-turtle-892
+run_uuid: 9f5bedf5b17a46a7bcd2209a64e68f3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737152564318
+status: 4
+tags: []
+user_id: zhijuanzhang

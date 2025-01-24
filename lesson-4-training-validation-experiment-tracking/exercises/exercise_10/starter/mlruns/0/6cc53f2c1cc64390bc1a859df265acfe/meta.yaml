@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/6cc53f2c1cc64390bc1a859df265acfe/artifacts
+end_time: 1737561397120
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6cc53f2c1cc64390bc1a859df265acfe
+run_name: peaceful-kite-322
+run_uuid: 6cc53f2c1cc64390bc1a859df265acfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737561200471
+status: 4
+tags: []
+user_id: zhijuanzhang

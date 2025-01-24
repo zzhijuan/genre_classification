@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/f436034701c748dd895dbb0d78cb302f/artifacts
+end_time: 1737668428159
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f436034701c748dd895dbb0d78cb302f
+run_name: likeable-bird-523
+run_uuid: f436034701c748dd895dbb0d78cb302f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737668383944
+status: 3
+tags: []
+user_id: zhijuanzhang

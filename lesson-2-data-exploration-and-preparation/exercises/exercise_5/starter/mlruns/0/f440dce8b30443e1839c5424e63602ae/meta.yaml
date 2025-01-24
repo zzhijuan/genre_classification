@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/f440dce8b30443e1839c5424e63602ae/artifacts
+end_time: 1737132057054
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f440dce8b30443e1839c5424e63602ae
+run_name: ambitious-boar-858
+run_uuid: f440dce8b30443e1839c5424e63602ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737132040696
+status: 4
+tags: []
+user_id: zhijuanzhang

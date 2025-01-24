@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/solution/mlruns/0/4152ee5e375048c1af1775300e6eafcd/artifacts
+end_time: 1737131654839
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4152ee5e375048c1af1775300e6eafcd
+run_name: handsome-fly-512
+run_uuid: 4152ee5e375048c1af1775300e6eafcd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737131463103
+status: 4
+tags: []
+user_id: zhijuanzhang

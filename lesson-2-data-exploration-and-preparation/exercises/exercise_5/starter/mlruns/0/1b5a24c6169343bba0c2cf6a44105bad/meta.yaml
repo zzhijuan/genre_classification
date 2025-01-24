@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/1b5a24c6169343bba0c2cf6a44105bad/artifacts
+end_time: 1737132163617
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b5a24c6169343bba0c2cf6a44105bad
+run_name: unequaled-doe-39
+run_uuid: 1b5a24c6169343bba0c2cf6a44105bad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737132151032
+status: 4
+tags: []
+user_id: zhijuanzhang

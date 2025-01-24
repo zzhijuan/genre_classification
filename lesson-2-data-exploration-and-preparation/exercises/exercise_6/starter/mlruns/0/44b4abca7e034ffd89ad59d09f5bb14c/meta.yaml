@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/44b4abca7e034ffd89ad59d09f5bb14c/artifacts
+end_time: 1737136572645
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 44b4abca7e034ffd89ad59d09f5bb14c
+run_name: judicious-dove-753
+run_uuid: 44b4abca7e034ffd89ad59d09f5bb14c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737136487844
+status: 4
+tags: []
+user_id: zhijuanzhang

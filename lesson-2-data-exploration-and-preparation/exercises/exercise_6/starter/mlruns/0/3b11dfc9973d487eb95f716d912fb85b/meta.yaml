@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/3b11dfc9973d487eb95f716d912fb85b/artifacts
+end_time: 1737134065843
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3b11dfc9973d487eb95f716d912fb85b
+run_name: carefree-roo-895
+run_uuid: 3b11dfc9973d487eb95f716d912fb85b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737133976511
+status: 4
+tags: []
+user_id: zhijuanzhang

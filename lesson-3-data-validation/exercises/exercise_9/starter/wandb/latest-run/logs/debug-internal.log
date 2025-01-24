@@ -1,0 +1,183 @@
+2025-01-17 16:28:23,503 INFO    StreamThr :12049 [internal.py:wandb_internal():86] W&B internal server running at pid: 12049, started at: 2025-01-17 16:28:23.501721
+2025-01-17 16:28:23,505 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: status
+2025-01-17 16:28:23,507 INFO    WriterThread:12049 [datastore.py:open_for_write():87] open: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/run-yl56zo0v.wandb
+2025-01-17 16:28:23,509 DEBUG   SenderThread:12049 [sender.py:send():378] send: header
+2025-01-17 16:28:23,509 DEBUG   SenderThread:12049 [sender.py:send():378] send: run
+2025-01-17 16:28:23,728 INFO    SenderThread:12049 [dir_watcher.py:__init__():211] watching files in: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files
+2025-01-17 16:28:23,729 INFO    SenderThread:12049 [sender.py:_start_run_threads():1099] run started: yl56zo0v with start time 1737152903.502516
+2025-01-17 16:28:23,740 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: check_version
+2025-01-17 16:28:23,740 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: check_version
+2025-01-17 16:28:23,808 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: run_start
+2025-01-17 16:28:23,817 DEBUG   HandlerThread:12049 [system_info.py:__init__():26] System info init
+2025-01-17 16:28:23,818 DEBUG   HandlerThread:12049 [system_info.py:__init__():41] System info init done
+2025-01-17 16:28:23,818 INFO    HandlerThread:12049 [system_monitor.py:start():194] Starting system monitor
+2025-01-17 16:28:23,818 INFO    SystemMonitor:12049 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-01-17 16:28:23,819 INFO    HandlerThread:12049 [system_monitor.py:probe():214] Collecting system info
+2025-01-17 16:28:23,820 INFO    SystemMonitor:12049 [interfaces.py:start():190] Started cpu monitoring
+2025-01-17 16:28:23,820 DEBUG   HandlerThread:12049 [system_info.py:probe():150] Probing system
+2025-01-17 16:28:23,820 INFO    SystemMonitor:12049 [interfaces.py:start():190] Started disk monitoring
+2025-01-17 16:28:23,821 INFO    SystemMonitor:12049 [interfaces.py:start():190] Started memory monitoring
+2025-01-17 16:28:23,827 INFO    SystemMonitor:12049 [interfaces.py:start():190] Started network monitoring
+2025-01-17 16:28:23,829 DEBUG   HandlerThread:12049 [gitlib.py:_init_repo():56] git repository is invalid
+2025-01-17 16:28:23,830 DEBUG   HandlerThread:12049 [system_info.py:probe():198] Probing system done
+2025-01-17 16:28:23,830 DEBUG   HandlerThread:12049 [system_monitor.py:probe():223] {'os': 'macOS-12.7.4-x86_64-i386-64bit', 'python': '3.12.8', 'heartbeatAt': '2025-01-17T22:28:23.820846', 'startedAt': '2025-01-17T22:28:23.489511', 'docker': None, 'cuda': None, 'args': ('-s', '-vv', '.', '--reference_artifact', 'exercise_6/data_train.csv:latest', '--sample_artifact', 'exercise_6/data_test.csv:latest', '--ks_alpha', '0.05'), 'state': 'running', 'program': '/opt/anaconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/pytest', 'codePathLocal': None, 'host': 'zhijuans-Air.attlocal.net', 'username': 'zhijuanzhang', 'executable': '/opt/anaconda3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/python3.12', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2200, 'min': 2200, 'max': 2200}, 'cpu_freq_per_core': [{'current': 2200, 'min': 2200, 'max': 2200}], 'disk': {'/': {'total': 233.5667953491211, 'used': 20.13284683227539}}, 'memory': {'total': 8.0}}
+2025-01-17 16:28:23,830 INFO    HandlerThread:12049 [system_monitor.py:probe():224] Finished collecting system info
+2025-01-17 16:28:23,830 INFO    HandlerThread:12049 [system_monitor.py:probe():227] Publishing system info
+2025-01-17 16:28:23,830 DEBUG   HandlerThread:12049 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2025-01-17 16:28:24,733 INFO    Thread-12 :12049 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/conda-environment.yaml
+2025-01-17 16:28:24,830 DEBUG   HandlerThread:12049 [system_info.py:_save_conda():219] Saving conda packages done
+2025-01-17 16:28:24,831 INFO    HandlerThread:12049 [system_monitor.py:probe():229] Finished publishing system info
+2025-01-17 16:28:24,835 DEBUG   SenderThread:12049 [sender.py:send():378] send: files
+2025-01-17 16:28:24,835 INFO    SenderThread:12049 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2025-01-17 16:28:24,898 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: python_packages
+2025-01-17 16:28:24,899 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: stop_status
+2025-01-17 16:28:24,899 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: python_packages
+2025-01-17 16:28:24,899 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: stop_status
+2025-01-17 16:28:24,901 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: internal_messages
+2025-01-17 16:28:25,008 DEBUG   SenderThread:12049 [sender.py:send():378] send: telemetry
+2025-01-17 16:28:25,136 INFO    wandb-upload_0:12049 [upload_job.py:push():131] Uploaded file /var/folders/lb/lzwyxcq94m1db_9xkvlzj29w0000gn/T/tmphof0rqqswandb/ttf27019-wandb-metadata.json
+2025-01-17 16:28:25,732 INFO    Thread-12 :12049 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/requirements.txt
+2025-01-17 16:28:25,732 INFO    Thread-12 :12049 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/wandb-metadata.json
+2025-01-17 16:28:25,732 INFO    Thread-12 :12049 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/output.log
+2025-01-17 16:28:25,906 DEBUG   SenderThread:12049 [sender.py:send():378] send: use_artifact
+2025-01-17 16:28:26,544 DEBUG   SenderThread:12049 [sender.py:send():378] send: use_artifact
+2025-01-17 16:28:26,864 DEBUG   SenderThread:12049 [sender.py:send():378] send: exit
+2025-01-17 16:28:26,865 INFO    SenderThread:12049 [sender.py:send_exit():585] handling exit code: 0
+2025-01-17 16:28:26,865 INFO    SenderThread:12049 [sender.py:send_exit():587] handling runtime: 3
+2025-01-17 16:28:26,866 INFO    SenderThread:12049 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-01-17 16:28:26,867 INFO    SenderThread:12049 [sender.py:send_exit():593] send defer
+2025-01-17 16:28:26,867 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:26,867 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 0
+2025-01-17 16:28:26,868 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:26,868 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-01-17 16:28:26,868 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 1
+2025-01-17 16:28:26,868 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:26,868 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 1
+2025-01-17 16:28:26,868 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:26,868 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-01-17 16:28:26,868 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 2
+2025-01-17 16:28:26,869 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:26,869 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 2
+2025-01-17 16:28:26,869 INFO    HandlerThread:12049 [system_monitor.py:finish():203] Stopping system monitor
+2025-01-17 16:28:26,869 DEBUG   SystemMonitor:12049 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-01-17 16:28:26,869 INFO    HandlerThread:12049 [interfaces.py:finish():202] Joined cpu monitor
+2025-01-17 16:28:26,869 DEBUG   SystemMonitor:12049 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-01-17 16:28:26,870 INFO    HandlerThread:12049 [interfaces.py:finish():202] Joined disk monitor
+2025-01-17 16:28:26,870 DEBUG   SystemMonitor:12049 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-01-17 16:28:26,870 INFO    HandlerThread:12049 [interfaces.py:finish():202] Joined memory monitor
+2025-01-17 16:28:26,871 INFO    HandlerThread:12049 [interfaces.py:finish():202] Joined network monitor
+2025-01-17 16:28:26,871 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:26,871 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-01-17 16:28:26,871 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 3
+2025-01-17 16:28:26,872 DEBUG   SenderThread:12049 [sender.py:send():378] send: stats
+2025-01-17 16:28:26,872 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:26,873 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 3
+2025-01-17 16:28:26,873 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:26,873 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-01-17 16:28:26,874 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 4
+2025-01-17 16:28:26,874 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:26,874 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 4
+2025-01-17 16:28:26,874 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:26,875 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-01-17 16:28:26,875 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 5
+2025-01-17 16:28:26,875 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:26,875 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 5
+2025-01-17 16:28:26,877 DEBUG   SenderThread:12049 [sender.py:send():378] send: summary
+2025-01-17 16:28:26,878 INFO    SenderThread:12049 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2025-01-17 16:28:26,879 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:26,879 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-01-17 16:28:26,879 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 6
+2025-01-17 16:28:26,879 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:26,880 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 6
+2025-01-17 16:28:26,880 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:26,880 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-01-17 16:28:26,883 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: status_report
+2025-01-17 16:28:26,945 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 7
+2025-01-17 16:28:26,946 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:26,946 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 7
+2025-01-17 16:28:26,946 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:26,946 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-01-17 16:28:27,741 INFO    Thread-12 :12049 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/config.yaml
+2025-01-17 16:28:27,742 INFO    Thread-12 :12049 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/output.log
+2025-01-17 16:28:27,742 INFO    Thread-12 :12049 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/wandb-summary.json
+2025-01-17 16:28:27,865 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: poll_exit
+2025-01-17 16:28:29,030 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 8
+2025-01-17 16:28:29,030 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: poll_exit
+2025-01-17 16:28:29,030 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:29,031 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 8
+2025-01-17 16:28:29,032 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:29,032 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-01-17 16:28:29,032 INFO    SenderThread:12049 [job_builder.py:build():298] Attempting to build job artifact
+2025-01-17 16:28:29,033 INFO    SenderThread:12049 [job_builder.py:_get_source_type():439] no source found
+2025-01-17 16:28:29,033 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 9
+2025-01-17 16:28:29,033 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:29,033 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 9
+2025-01-17 16:28:29,033 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:29,034 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-01-17 16:28:29,034 INFO    SenderThread:12049 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-01-17 16:28:29,748 INFO    SenderThread:12049 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/output.log
+2025-01-17 16:28:29,748 INFO    SenderThread:12049 [dir_watcher.py:finish():388] scan: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files
+2025-01-17 16:28:29,749 INFO    SenderThread:12049 [dir_watcher.py:finish():402] scan save: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/requirements.txt requirements.txt
+2025-01-17 16:28:29,749 INFO    SenderThread:12049 [dir_watcher.py:finish():402] scan save: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/output.log output.log
+2025-01-17 16:28:29,752 INFO    SenderThread:12049 [dir_watcher.py:finish():402] scan save: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/config.yaml config.yaml
+2025-01-17 16:28:29,756 INFO    SenderThread:12049 [dir_watcher.py:finish():402] scan save: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/wandb-summary.json wandb-summary.json
+2025-01-17 16:28:29,761 INFO    SenderThread:12049 [dir_watcher.py:finish():402] scan save: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/conda-environment.yaml conda-environment.yaml
+2025-01-17 16:28:29,764 INFO    SenderThread:12049 [dir_watcher.py:finish():402] scan save: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/wandb-metadata.json wandb-metadata.json
+2025-01-17 16:28:29,766 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 10
+2025-01-17 16:28:29,768 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:29,771 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 10
+2025-01-17 16:28:29,772 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:29,773 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-01-17 16:28:29,773 INFO    SenderThread:12049 [file_pusher.py:finish():172] shutting down file pusher
+2025-01-17 16:28:29,876 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: poll_exit
+2025-01-17 16:28:29,878 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: poll_exit
+2025-01-17 16:28:29,965 INFO    wandb-upload_0:12049 [upload_job.py:push():131] Uploaded file /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/requirements.txt
+2025-01-17 16:28:30,040 INFO    wandb-upload_1:12049 [upload_job.py:push():131] Uploaded file /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/output.log
+2025-01-17 16:28:30,083 INFO    wandb-upload_4:12049 [upload_job.py:push():131] Uploaded file /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/conda-environment.yaml
+2025-01-17 16:28:30,106 INFO    wandb-upload_2:12049 [upload_job.py:push():131] Uploaded file /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/config.yaml
+2025-01-17 16:28:30,110 INFO    wandb-upload_3:12049 [upload_job.py:push():131] Uploaded file /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/files/wandb-summary.json
+2025-01-17 16:28:30,314 INFO    Thread-11 (_thread_body):12049 [sender.py:transition_state():613] send defer: 11
+2025-01-17 16:28:30,315 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:30,316 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 11
+2025-01-17 16:28:30,316 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:30,316 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-01-17 16:28:30,317 INFO    SenderThread:12049 [file_pusher.py:join():178] waiting for file pusher
+2025-01-17 16:28:30,317 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 12
+2025-01-17 16:28:30,318 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:30,318 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 12
+2025-01-17 16:28:30,318 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:30,319 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-01-17 16:28:30,319 INFO    SenderThread:12049 [file_stream.py:finish():595] file stream finish called
+2025-01-17 16:28:30,387 INFO    SenderThread:12049 [file_stream.py:finish():599] file stream finish is done
+2025-01-17 16:28:30,387 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 13
+2025-01-17 16:28:30,387 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:30,387 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 13
+2025-01-17 16:28:30,387 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:30,388 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-01-17 16:28:30,388 INFO    SenderThread:12049 [sender.py:transition_state():613] send defer: 14
+2025-01-17 16:28:30,388 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: defer
+2025-01-17 16:28:30,388 INFO    HandlerThread:12049 [handler.py:handle_request_defer():172] handle defer: 14
+2025-01-17 16:28:30,388 DEBUG   SenderThread:12049 [sender.py:send():378] send: final
+2025-01-17 16:28:30,388 DEBUG   SenderThread:12049 [sender.py:send():378] send: footer
+2025-01-17 16:28:30,389 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: defer
+2025-01-17 16:28:30,389 INFO    SenderThread:12049 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-01-17 16:28:30,389 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: poll_exit
+2025-01-17 16:28:30,391 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: poll_exit
+2025-01-17 16:28:30,392 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: poll_exit
+2025-01-17 16:28:30,392 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: poll_exit
+2025-01-17 16:28:30,393 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: server_info
+2025-01-17 16:28:30,394 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: get_summary
+2025-01-17 16:28:30,394 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: sampled_history
+2025-01-17 16:28:30,394 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: server_info
+2025-01-17 16:28:30,394 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: internal_messages
+2025-01-17 16:28:30,395 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: job_info
+2025-01-17 16:28:30,439 DEBUG   SenderThread:12049 [sender.py:send_request():405] send_request: job_info
+2025-01-17 16:28:30,443 INFO    MainThread:12049 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2025-01-17 16:28:30,443 INFO    MainThread:12049 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2025-01-17 16:28:30,443 INFO    MainThread:12049 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2025-01-17 16:28:30,444 DEBUG   HandlerThread:12049 [handler.py:handle_request():146] handle_request: shutdown
+2025-01-17 16:28:30,444 INFO    HandlerThread:12049 [handler.py:finish():869] shutting down handler
+2025-01-17 16:28:31,400 INFO    WriterThread:12049 [datastore.py:close():296] close: /Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_9/starter/wandb/run-20250117_162823-yl56zo0v/run-yl56zo0v.wandb
+2025-01-17 16:28:31,441 INFO    SenderThread:12049 [sender.py:finish():1521] shutting down sender
+2025-01-17 16:28:31,442 INFO    SenderThread:12049 [file_pusher.py:finish():172] shutting down file pusher
+2025-01-17 16:28:31,443 INFO    SenderThread:12049 [file_pusher.py:join():178] waiting for file pusher

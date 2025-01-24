@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/3390c15b12574378a4a0f01d4ba07429/artifacts
+end_time: 1737150747103
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3390c15b12574378a4a0f01d4ba07429
+run_name: skillful-frog-772
+run_uuid: 3390c15b12574378a4a0f01d4ba07429
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737150584785
+status: 4
+tags: []
+user_id: zhijuanzhang

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/solution/mlruns/0/3e69790faca84271af88bf53c25b8948/artifacts
+end_time: 1737663429549
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e69790faca84271af88bf53c25b8948
+run_name: bustling-koi-146
+run_uuid: 3e69790faca84271af88bf53c25b8948
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737663421495
+status: 4
+tags: []
+user_id: zhijuanzhang

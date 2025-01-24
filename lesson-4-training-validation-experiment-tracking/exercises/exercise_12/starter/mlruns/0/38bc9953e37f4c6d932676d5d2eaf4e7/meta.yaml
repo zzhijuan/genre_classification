@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/38bc9953e37f4c6d932676d5d2eaf4e7/artifacts
+end_time: 1737672420445
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 38bc9953e37f4c6d932676d5d2eaf4e7
+run_name: casual-fowl-680
+run_uuid: 38bc9953e37f4c6d932676d5d2eaf4e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737672373764
+status: 3
+tags: []
+user_id: zhijuanzhang

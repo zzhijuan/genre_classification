@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/zhijuanzhang/Documents/UdacityCourse/MLOps_P2_Reproducible_Pipeline/Exercise/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/fb7508771a424ed88bed1a885607c194/artifacts
+end_time: 1737672420855
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fb7508771a424ed88bed1a885607c194
+run_name: burly-asp-790
+run_uuid: fb7508771a424ed88bed1a885607c194
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737672363608
+status: 3
+tags: []
+user_id: zhijuanzhang
